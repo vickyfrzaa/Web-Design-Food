@@ -1,0 +1,112 @@
+html	{
+	scroll-behavior: smooth;
+}
+
+/*section*/
+.section {
+	min-height: 420px;
+}
+
+/*pt pb navbar*/
+#dasIndex {
+  padding-bottom: 50px;
+  padding-top: 110px;
+}
+
+.navbar {
+position: fixed;
+transition:ease all 1s;
+-webkit-transition:ease all 1s;
+-moz-transition:ease all 1s;
+-o-transition:ease all 1s;
+}
+
+
+.tm-font-big {
+  font-size: 1.25rem;
+}
+
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.nav-link {
+  margin-right: 10px;
+}
+
+/*utility navbar login*/
+.tombol {
+  border-radius: 40px;
+}
+
+.nav-link:hover::after {
+  
+  display: block;
+  border-bottom: 3px solid #0B63DC;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-brand:hover,
+.navbar.scroll .navbar-brand:hover {
+  color: #38B;
+}
+
+.navbar.scroll .navbar-brand {
+  color: #369;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar.scroll .nav-link {
+  color: #369;
+}
+
+.navbar.scroll .nav-link:hover,
+.navbar.scroll .nav-link.current,
+.nav-link:hover {
+  color: #FFF;
+  background-color: #369;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-toggler-icon {
+  color: white;
+  padding-top: 6px;
+}
+
+.myForm .tblSearch {
+  width: 150px;
+}
+
+/*footer*/
+#footer {
+  background-color: #001828;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-item i {
+  font-size: 20px;
+  padding: 0px;
+}

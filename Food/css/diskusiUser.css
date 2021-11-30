@@ -1,0 +1,71 @@
+/*
+Template Name: Admin pro Admin
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*
+Template Name: Admin Pro Admin
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*******************
+chat application Page
+******************/
+.chat-main-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.chatonline img {
+  width: 100%;
+  border-radius: .375rem;
+}
+
+.chat-main-box .chat-right-aside .chat-rbox {
+  height: 350px;
+  position: relative; 
+}
+
+.chat-main-box .chat-right-aside .chat-list {
+  max-height: none;
+  height: 100%;
+  padding-top: 40px; 
+}
+
+.chat-main-box .chat-right-aside .chat-list .chat-text {
+  border-radius: 6px; 
+}
+
+.chat-main-box .chat-right-aside .send-chat-box {
+  position: relative; 
+}
+
+.chat-main-box .chat-right-aside .send-chat-box .form-control {
+  border: none;
+  border-top: 1px solid rgba(120, 130, 140, 0.13);
+  resize: none;
+  height: 80px;
+  padding-right: 180px; 
+}
+
+.chat-main-box .chat-right-aside .send-chat-box .form-control:focus {
+  border-color: rgba(120, 130, 140, 0.13); 
+}
+
+.chat-main-box .chat-right-aside .send-chat-box .custom-send {
+  position: absolute;
+  right: 20px;
+  bottom: 10px; 
+}
+
+.chat-main-box .chat-right-aside .send-chat-box .custom-send .cst-icon {
+  color: #67757c;
+  margin-right: 10px; 
+}
